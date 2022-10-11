@@ -1,0 +1,173 @@
+ <!DOCTYPE html>
+  <html>
+  
+    <head>
+	
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>	 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	
+	</head>
+	
+	
+	
+	
+	
+	<body>
+	
+	
+	
+	
+	
+		<nav>
+			<div class="nav-wrapper #8d6e63 brown lighten-1">
+			  <a href="#" class="brand-logo"> --Louisa Coffee--</a>
+			  <ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="total.html?key=1">推薦</a></li>
+				<li><a href="推薦.html">附近門市</a></li>
+				<li><a href="表單.html">評分</a></li>
+			  </ul>
+			</div>
+		  </nav>
+	  
+	    
+		
+		<img src='露易莎logo1.png'  width="100%" height="550">
+
+		<div id="demo">
+		</div>
+		<div id="demo2">
+		</div>
+				
+	    <div style="text-align:center;"><h5><p><b>咖啡職人</h5></div></b></p>
+		<div class="row" id="card1">
+	    </div>
+		
+		
+		
+		
+		
+		<script>
+
+		$(document).ready(function() {
+		  var owl = $('.owl-carousel');
+		  owl.owlCarousel({
+			items: 4,
+			loop: true,
+			margin: 10,
+			autoplay: true,
+			autoplayTimeout: 1000,
+			autoplayHoverPause: true
+		  });
+		})
+				
+		
+		var images =  new Array();
+		images[0] = "https://www.louisacoffee.co/upload/product/20171013_033137.jpg" ;
+		images[1] = "https://www.louisacoffee.co/upload/product/20171013_033051.jpg";
+		images[2] = "https://www.louisacoffee.co/upload/product/20171013_033035.jpg" ;
+		images[3] = "https://www.louisacoffee.co/upload/product/20171013_032202.jpg" ;
+		images[4] = "https://www.louisacoffee.co/upload/product/20171013_033115.jpg" ;
+		images[5] = "https://www.louisacoffee.co/upload/product/20171013_033207.jpg";
+
+		str = '<div class="owl-carousel owl-theme">';
+		for (i=0 ; i<=5 ; i++)
+			{
+			str += '<div class="item">';
+			str += 	'<img src="' + images[i] + '" >';
+			str += '</div>';
+			}
+		str += '</div>';
+		document.getElementById("demo").innerHTML = str;
+	  </script>	
+	  
+	  		
+
+			   <script>
+		   
+		   var picture=['https://www.louisacoffee.co/upload/blog/20161018_090309-image(850x_).jpg',
+						'https://www.louisacoffee.co/upload/blog/20161031_054547-image(850x_).jpg',
+						'https://www.louisacoffee.co/upload/blog/20161130_081733-image(850x_).jpg'];
+		  var CardTitle=['講究、堅持、咖啡師一定要做的事',' 一氣呵成的藝術-Latte Art-','如何找到適合你的咖啡風味'];
+		  var cardcontent=['有時會看到咖啡師拿著一個圓形的湯匙在喝咖啡?難道這是甚麼新的喝咖啡方式嗎?其實咖啡師是在做杯測，杯測在咖啡採購以及風味篩選中是很重要的一環，所謂杯測是判斷咖啡的甜味、酸味、苦味、後續餘韻和香氣、以及品質的優劣。杯測在咖啡產地及生產國是很常見的、因為能將咖啡的產區風味用最直接的方式傳達到味蕾。所以在產地採購咖啡生豆時，都會進行杯測來判斷是否購入。但杯測到底是如何進行的呢?以下就讓我們介紹進行杯測時的步驟首先，進行杯測前需...',
+		                   '每每在看到一杯拿鐵上有著美麗的拉花，都讓心情更加的愉悅，美麗的事物猶如藝術豐富我們的生活，而咖啡，也是一門藝術。咖啡拉花，則是將咖啡的體驗透過視覺表現讓其更為提升的手法，美麗的目眩神迷，令人沈醉其中。 拿鐵，是義大利文Latte的譯音，因此拉花即稱為Latte art，意指拿鐵的藝術。專業的吧台師傅利用蒸牛奶做出綿密的奶泡，再注入濃郁的Crema當中，透過晃動，注入牛奶的距離，熟練並輕巧的將線條呈現在杯中。從注入奶泡、晃動、再到最...',
+						   '味覺。是一種受到直接化學刺激而產生的感覺，由酸、甜、苦、鹹四種味道所組成，指的是能夠感受物質味道的能力。由口腔進入，並透過舌頭去仔細感受各種味道，而咖啡可說是擁有最多種味覺感受的飲品，究竟我們該如何去選擇，並找出適合我們自己的咖啡風味呢？影響一杯咖啡風味的因素相當的多，從咖啡生豆的品種、產區的地理環境、氣候條件、處理法、烘焙的方式、到咖啡師如何去沖煮這杯咖啡，每個環節都會對一杯咖啡產生決定性的影響，一杯好的咖啡，當中...'];
+		  var link=['https://www.louisacoffee.co/blog1show/14',
+		            'https://www.louisacoffee.co/blog1show/15',
+					'https://www.louisacoffee.co/blog1show/17'];
+						
+	for (i = 0; i < 3; i++) 
+	   document.getElementById("card1").innerHTML+=  '<div class="col s12 m8">'+
+													'   <div class="card">'+
+													'      <div class="card-image">'+
+													'        <img src="'+picture[i]+'">'+
+													'        <span class="card-title">'+CardTitle[i]+'</span>' +
+													'      </div>'+
+													'      <div class="card-content">'+
+													'        <p>'+cardcontent[i]+'</p>'+
+													'      </div>'+
+													'      <div class="card-action"> '+
+													'        <a href="'+link[i]+'">Read More</a>'+
+													'      </div>'+
+													'   </div>'+
+													' </div>';
+	  </script>
+
+	  
+	  <div style="text-align:center;"><h5><p><b>天下雜誌專訪</h5></div></b></p>
+	  <iframe width="600" height="360" src="https://www.youtube.com/embed/GfFrYMMvJQA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  
+	  
+	  	 <footer class="page-footer #8d6e63 brown lighten-1">
+          <div class="container ">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text ">Louisa Coffee</h5>
+				<p style="font-size:20px ">4108029006 林旭容 <a>sharon.lin.2001@gmail.com</a></p>
+
+              </div>
+              <div class="col l4 offset-l2 s12">
+                 <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.louisacoffee.co/">路易莎官網</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright Text
+            </div>
+          </div>
+        </footer>
+	  
+	  
+	  
+	        <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+		
+		
+		
+		
+		
+		    </body>
+			
+			
+			
+			
+			
+  </html>

@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+  <html>
+  
+    <head>
+	
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>	 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	
+	
+	
+	
+		<script type="text/javascript">
+	
+			// 取得網址裡的參數 
+		function GetUrlVar(VarName) 
+		{
+		  name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+		  var regexS = "[\\?&]" + VarName + "=([^&#]*)";
+		  var regex = new RegExp(regexS);
+		  var results = regex.exec(window.location.href);
+		  if (results == null)
+		   	 return "";
+		  else
+			 return results[1];
+		}
+		
+		  var X = decodeURIComponent(GetUrlVar('key'));
+    </script>
+	</head>
+	
+	
+	
+	
+	
+	<body>
+	
+	
+	
+	
+	
+		<nav>
+			<div class="nav-wrapper #8d6e63 brown lighten-1">
+			  <a href="#" class="brand-logo"> //Louisa Coffee//</a>
+			  <ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="產品.html">推薦</a></li>
+				<li><a href="推薦.html">附近門市</a></li>
+				<li><a href="表單.html">評分</a></li>
+			  </ul>
+			</div>
+		  </nav>
+	  
+				
+	    <div style="text-align:center;"><h5><p><b>推薦飲品</h5></div></b></p>
+		<div class="row" id="card1">
+	    </div>
+		
+		
+	  		
+
+			   <script>
+		   
+		   var picture=['https://buzzorange.com/vidaorange/wp-content/uploads/sites/3/2018/11/01-768x576.jpg',
+						'https://buzzorange.com/vidaorange/wp-content/uploads/sites/3/2018/11/02-768x576.jpg',
+						'https://buzzorange.com/vidaorange/wp-content/uploads/sites/3/2018/11/03-1-768x576.jpg',
+						'https://buzzorange.com/vidaorange/wp-content/uploads/sites/3/2018/11/04-768x576.jpg',
+						'https://buzzorange.com/vidaorange/wp-content/uploads/sites/3/2018/11/05-768x576.jpg',
+						'https://buzzorange.com/vidaorange/wp-content/uploads/sites/3/2018/11/06-768x576.jpg'];
+		  var CardTitle=['【推薦】熱的無糖/去冰微糖',
+		                 '【推薦】熱的無糖/去冰微糖',
+					     '【推薦】去冰半糖',
+					     '【推薦】去冰半糖',
+						 '【推薦】去冰半糖',
+						 '【推薦】去冰半糖'];
+		  var cardcontent=['No.1 暖心焦糖鮮奶茶：激似麥當勞焦糖奶茶',
+		                   'No.2 黑糖雪點奶茶：濃郁黑糖香好幸福',
+						   'No.3 翠玉蜜茶拿鐵：清爽順口不自覺喝光光',
+						   'No.4 小農雪點拿鐵：黑糖與拿鐵的完美結合',
+						   'No.5 莊園拿鐵：香氣十足不苦澀',
+						   'No.6 愛丁堡女王紅茶：酸甜蘋果香'];
+						
+	for (i = 0; i < 6; i++) 
+	   document.getElementById("card1").innerHTML+=  '<div class="col s12 m4">'+
+													'   <div class="card">'+
+													'      <div class="card-image">'+
+													'        <img src="'+picture[i]+'">'+
+													'      </div>'+
+													'      <div class="card-content">'+
+													'        <p>'+cardcontent[i]+'</p>'+
+													'        <p>'+CardTitle[i]+'</p>'+
+													'      </div>'+
+													'   </div>'+
+													' </div>';
+	  </script>
+
+	    
+	  	 <footer class="page-footer #8d6e63 brown lighten-1">
+          <div class="container ">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text ">Louisa Coffee</h5>
+				<p style="font-size:20px ">4108029006 林旭容 <a>sharon.lin.2001@gmail.com</a></p>
+
+              </div>
+              <div class="col l4 offset-l2 s12">
+                 <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.louisacoffee.co/">路易莎官網</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright Text
+            </div>
+          </div>
+        </footer>
+	  
+	  
+	  
+	        <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+		
+		
+		
+		
+		
+		    </body>
+			
+			
+			
+			
+			
+  </html>
